@@ -10,6 +10,8 @@ Go to this website : [https://www.dosbox.com](https://www.dosbox.com/) and grab 
 ### Compile the program
 Install the [https://www.nasm.us/](https://www.nasm.us/) assembler and compile the `program.asm` file via the command : `nasm -fbin program.asm -o program.com`
 
+[DOSBox syscall documentation](https://www.pcjs.org/documents/books/mspl13/msdos/encyclopedia/section5/)
+
 ### Run DOSBox
 - Run the DOSBox emulator
 - Mount the folder which contains the `program.com` that you compiled earlier : `Z:> mount C: C:\Users\user\Desktop\intel_x8086_clock`
